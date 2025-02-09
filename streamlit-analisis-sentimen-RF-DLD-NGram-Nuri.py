@@ -1,6 +1,24 @@
 # =======================
 # 1. LOAD MODEL & VECTOR
 # =======================
+import os
+
+required_packages = [
+    "scikit-learn",
+    "numpy",
+    "streamlit",
+    "streamlit-option-menu",
+    "pandas",
+    "nltk",
+    "matplotlib",
+    "seaborn",
+    "sastrawi",
+    "textdistance"
+]
+
+for package in required_packages:
+    os.system(f"pip install {package}")
+    
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 import numpy as np
 import streamlit as st
