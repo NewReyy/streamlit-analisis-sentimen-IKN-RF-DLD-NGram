@@ -8,3 +8,4 @@ matplotlib
 seaborn
 sastrawi
 textdistance
+git-lfs
