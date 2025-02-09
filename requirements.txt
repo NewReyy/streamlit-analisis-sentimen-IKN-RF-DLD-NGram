@@ -1,0 +1,10 @@
+scikit-learn
+numpy
+streamlit
+streamlit-option-menu
+pandas
+nltk
+matplotlib
+seaborn
+sastrawi
+textdistance
