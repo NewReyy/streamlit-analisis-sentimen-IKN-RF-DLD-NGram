@@ -34,6 +34,7 @@ from nltk.tokenize import word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemover, ArrayDictionary
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 import warnings
 warnings.filterwarnings("ignore")
